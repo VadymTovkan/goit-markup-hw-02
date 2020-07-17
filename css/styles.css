@@ -1,81 +1,59 @@
+body {
+  color: #212121;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
 .webstudio_header {
   color: #2196f3;
 }
-.webstudio_header span {
+
+.nav-list .navigation {
   color: #212121;
 }
 
-.navigation {
-  color: #212121;
-}
-
-.contacts {
-  color: #757575;
-}
-
-.section_1 {
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-}
-
-.advantage {
-  color: #212121;
-}
-
-.advantage_description {
-  color: #757575;
-}
-
-.description {
-  color: #212121;
-}
-
-.services {
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-}
-
-.team {
-  color: #212121;
-}
-
-.position {
-  color: #757575;
-}
-
-.clients {
-  color: #212121;
-}
-
-footer {
-  background: #2f303a;
-}
-
-.webstudio_footer {
+.navigation:hover,
+.navigation:focus {
   color: #2196f3;
 }
 
-.webstudio_footer span {
-  color: #ffffff;
+.contacts-main-col .contacts {
+  color: #757575;
 }
 
-.address {
-  color: #ffffff;
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
 }
 
-.join {
-  color: #ffffff;
+.section_1_title {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+.section_1 {
+  color: #fff;
+  background: #2196f3;
 }
 
-.portfolio_info {
+.section_title {
   color: #212121;
+}
+
+.section_description {
+  color: #757575;
+}
+
+.section_4 {
   background: #f5f4fa;
 }
 
-.portfolio {
-  color: #212121;
-}
-
-.portfolio_description {
-  color: #757575;
-}
+/* button */
